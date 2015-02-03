@@ -12,11 +12,26 @@ body {
 .text-muted {
     font-family: "coming-soon", "Myriad Pro Light", "Montserrat","Helvetica Neue","sans-serif";
 	font-size: 16px;
-	color: #777;
+	color: #666;
+}
+
+.text-footer {
+	font-family: "coming-soon", "Myriad Pro Light", "Montserrat","Helvetica Neue","sans-serif";
+	font-size: 16px;
+	color: #666;
+	margin-top: 10px;
+}
+
+.text-footer {
+	
 }
 
 .text-primary {
     color: #fed136;
+}
+
+.transp-yellow {
+	color: rgba(254,209,54,0.8);
 }
 
 p {
@@ -177,8 +192,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #fed136;
+    font-family: "fredericka-the-great","Helvetica Neue",Helvetica,Arial,cursive;
+    color: #909090;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -230,6 +245,10 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
     background-color: #fec503;
+}
+
+#margin-up {
+	margin-top: 50px;
 }
 
 @media(min-width:768px) {
@@ -303,47 +322,62 @@ header .intro-text .intro-heading {
         padding-bottom: 200px;
     }
 
-    header .intro-text .intro-lead-in {
-	margin-bottom: 45px;
-	font-family: coming-soon;
-	font-size: 40px;
-	line-height: 40px;
-	font-style: normal;
-	font-weight: 400;
+    header .intro-text .intro-brand {
+		font-family: "fredericka-the-great","Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+        color: #fed136;
+		font-size: 6em;
+		margin-top: -130px;
+		margin-bottom: 25px;
+	    font-weight: 400;
+	}
+	
+	header .intro-text .intro-lead-in {
+		margin-bottom: 25px;
+		font-family: cabin-sketch;
+		font-size: 2.7em;
+		line-height: 40px;
+		font-style: normal;
+		font-weight: 400;
     }
 
     header .intro-text .intro-heading {
-	margin-bottom: 50px;
-	font-family: cabin-sketch;
-	font-size: 60px;
-	font-weight: 400;
-	line-height: 75px;
-	font-style: normal;
+		margin-bottom: 50px;
+		font-family: cabin-sketch;
+		font-size: 1.8em;
+		font-weight: 400;
+		line-height: 75px;
+		font-style: normal;
     }
 }
 
 section {
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 section h2.section-heading {
+	font-family: cabin-sketch;
 	margin-top: 0;
     margin-bottom: 15px;
     font-size: 40px;
 }
 
 section h3.section-subheading {
-    margin-bottom: 75px;
+    margin-bottom: 45px;
     text-transform: none;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+	color: #fff;
     font-size: 16px;
     font-style: italic;
-    font-weight: 400;
+    font-weight: 100;
 }
+
+#subheading1 {
+	color: #666;
+}
+
 
 @media(min-width:768px) {
     section {
-        padding: 150px 0;
+        padding: 100px 0;
     }
 }
 
@@ -655,36 +689,34 @@ aside.clients img {
 }
 
 section#contact {
-    background-color: #222;
-    background-image: url(../img/map-image.png);
+	background-color: #222;
+    background-image: url(../img/class.jpg);
     background-position: center;
+	background-size: cover;
     background-repeat: no-repeat;
 }
+
 
 section#contact .section-heading {
 	color: #fff;
 }
 
-section#contact .form-group {
+section#contact .input-group {
     margin-bottom: 25px;
 }
 
-section#contact .form-group input,
-section#contact .form-group textarea {
-    padding: 20px;
+section#contact .input-group input,
+section#contact .input-group textarea {
+    padding: 15px;
+	border-radius: 3px;
 }
 
-section#contact .form-group input.form-control {
+section#contact .input-group input.form-control {
     height: auto;
 }
 
-section#contact .form-group textarea.form-control {
+section#contact .input-group textarea.form-control {
     height: 236px;
-}
-
-section#contact .form-control:focus {
-    border-color: #fed136;
-    box-shadow: none;
 }
 
 section#contact::-webkit-input-placeholder {
