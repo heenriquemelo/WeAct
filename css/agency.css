@@ -6,7 +6,7 @@
 
 body {
     overflow-x: hidden;
-    font-family: "Myriad Light Pro, Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Myriad Light Pro", "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .text-muted {
@@ -284,7 +284,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/golden_gate1.jpg);
+    background-image: url(../img/sky1.jpg);
     background-position: center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -688,16 +688,6 @@ section#services {
 aside.clients img {
     margin: 50px auto;
 }
-
-/* section#contact {
-	background-image: url(../img/icons-contact.jpg);
-    background-position: center;
-    background-repeat: none;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-} */
 
 section#contact .input-group {
     margin-bottom: 25px;

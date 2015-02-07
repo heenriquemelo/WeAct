@@ -1,0 +1,30 @@
+WeAct:
+
+5.adicionar preload CSS animation;
+1.colocar link para facebook na seção de cadastro - also, colocar "nós não mandamos spam nem compartilhamos seu email";
+2.ajeitar mobile;
+3.tirar outra foto;
+4.limpar código:apagar coisas inuteis;
+6.add favicon;
+
+-rever plano de vendas (EX: qualquer preço, mas a partir de R$15,00 tem bonus?);
+-ver se o plano de vendas é possível do ponto de vista tecnico;
+-integrar google analytics;
+-preço - That's about 4 cups of coffee;
+-ler:como otimizar SEO;
+-criar página no facebook ("Dúvidas? Fale conosco pelo facebook ou envie um email para nosso autor"?);
+-falar com Mateo;
+-achar forma de integrar os outros Scholars;
+-ver host para website - assinatura por tempo de uso (minutos, horas)?
+-try: DREAMHOST - promocode: STYLESHOUT;
+-check Chrome favorites: SEO spider, get a peek, W3C Validator, copywriting, google tag manager, free hosting, 
+ free stock images;
+-check Flickr requirements for commercial use of images;
+-add CDNs;
+-fazer validação do formulário e confeccionar msgs de erro e sucesso - bootstrap; 
+-send emails to universities;
+-create company email;
+-mailchimp? (see how it works - send email after people register)
+
+
+
