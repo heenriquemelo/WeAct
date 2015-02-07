@@ -11,7 +11,7 @@ body {
 
 .text-muted {
     font-family: "coming-soon", "Myriad Pro Light", "Montserrat","Helvetica Neue","sans-serif";
-	font-size: 16px;
+	font-size: 18px;
 	color: #666;
 }
 
@@ -176,6 +176,7 @@ fieldset[disabled] .btn-primary.active {
 .navbar-default {
     border-color: transparent;
     background-color: #222;
+    z-index: 999;
 }
 
 .navbar-default .navbar-brand {
@@ -210,7 +211,7 @@ fieldset[disabled] .btn-primary.active {
 
 .navbar-default .nav li a {
     text-transform: uppercase;
-    font-family: "Myriad Pro Light", "Montserrat","Helvetica Neue","sans-serif";
+    font-family: "Montserrat","Helvetica Neue","sans-serif";
     font-weight: 400;
     letter-spacing: 1px;
     color: #fff;
@@ -881,11 +882,13 @@ ul.social-buttons li a:active {
 
 ::-moz-selection {
     text-shadow: none;
+    color: #fff;
     background: #fed136;
 }
 
 ::selection {
     text-shadow: none;
+    color: #fff;
     background: #fed136;
 }
 
@@ -897,6 +900,4 @@ img::-moz-selection {
     background: 0 0;
 }
 
-body {
-    webkit-tap-highlight-color: #fed136;
-}
+
