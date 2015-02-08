@@ -1,11 +1,10 @@
 WeAct:
 
-5.adicionar preload CSS animation;
-1.colocar link para facebook na seção de cadastro - also, colocar "nós não mandamos spam nem compartilhamos seu email";
 2.ajeitar mobile;
 3.tirar outra foto;
 4.limpar código:apagar coisas inuteis;
-6.add favicon;
+-após lançar site-> testar vários tamanhos de tela mobile;
+
 
 -rever plano de vendas (EX: qualquer preço, mas a partir de R$15,00 tem bonus?);
 -ver se o plano de vendas é possível do ponto de vista tecnico;
