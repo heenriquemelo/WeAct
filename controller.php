@@ -1,12 +1,9 @@
 <?php
-//catch post information and decode
-$email = json_decode(file_get_contents("php://input"));
-
-//variables
-$uemail = mysql_real_escape_string($email);
+//catch post information 
+$email = file_get_contents("php://input");
 
 //create a file to retrieve user information
-$fp = fopen("myEmails.txt", "a");
-fwrite($fp, $uemail);
+$fp = fopen("emails.json", "a+");
+fwrite($fp, $email);
 fwrite($fp, "\n");	
 fclose($fp);
