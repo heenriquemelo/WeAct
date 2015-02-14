@@ -14,9 +14,8 @@
 	      .error(function(data,status,header,config) {
 	      	console.log(status);
 	      })
-	     
 		}
-
+		
 	});
 
 	// Controller para recuperar dados JSON com HTTP get
