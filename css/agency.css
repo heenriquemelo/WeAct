@@ -245,7 +245,8 @@ fieldset[disabled] .btn-primary.active {
 
 @media(min-width:768px) {
     .navbar-default {
-        padding: 25px 0;
+        padding-top: 15px;
+        padding-bottom: 15px; 
         border: 0;
         background-color: transparent;
         -webkit-transition: all .3s;
@@ -271,12 +272,12 @@ fieldset[disabled] .btn-primary.active {
     }
 
     .navbar-default.navbar-shrink {
-        padding: 10px 0;
+        padding-top: 5px;
+        padding-bottom: 5px;
         background-color: #222;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
-        font-size: 1.7em;
 		color: #fed136;
     }
 }
