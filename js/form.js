@@ -7,7 +7,10 @@
 
 	    $scope.addEmail = function() {
 	      
-	      $http.post('controller.php', {'email': $scope.email, 'date': Date()})
+	      var date = new Date();
+		  var jsondate = date.toJSON(); //returns UTC time (reduce 4 hours to get Manaus's time)
+
+	      $http.post('controller.php', {'email': $scope.email, 'date': jsondate})
 	      .success(function(data,status,header,config) {
 	      	console.log(status);
 	      })
