@@ -290,9 +290,9 @@ header {
     background-position: center;
     background-repeat: none;
     -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
 }
 
 header .intro-text {
@@ -358,14 +358,13 @@ section {
 
 .about-text {
     margin-top: 50px;
-    padding-left: 70px;
-    padding-right: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 @media(min-width:992px) {
     .about-text {
         margin-top: 0px;
-        margin-left: 200px;
         padding-left: 50px;
         padding-right: 0px;
     }
@@ -375,6 +374,7 @@ section {
     .about-text {
         padding-left: 0px;
     }
+
 }
 
 section h2.section-heading {
@@ -393,18 +393,12 @@ section h3.section-subheading {
 }
 
 section#services h3.section-subheading {
-    margin-bottom: 70px;
+    margin-bottom: 50px;
 }
 
 @media(min-width:768px) {
     section {
         padding: 100px 0;
-    }
-}
-
-@media(min-width: 992px) {
-    section#services h3.section-subheading {
-        margin-bottom: 45px;
     }
 }
 
@@ -419,14 +413,22 @@ section#services {
 	background-image: url(../img/map-image.png);
     background-attachment: fixed;
     background-position: center;
-	background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: none;
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
 }
 
 section#services .text-muted {
-    padding-left: 150px;
-    padding-right: 150px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+}
+
+@media(min-width: 520px) {
+    section#services .text-muted {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
 }
 
 @media(min-width: 768px) {
@@ -446,14 +448,14 @@ section#services .text-muted {
 
 section#contact .input-group {
     margin-bottom: 25px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
-@media(min-width: 992px) {
+@media(min-width: 768px) {
     section#contact .input-group {
-        padding-left: 0px;
-        padding-right: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
 
@@ -520,8 +522,12 @@ section#team {
 	background-image: url(../img/lego1.jpg);
     background-attachment: fixed;
     background-position: center;
-	background-size: cover;
-    background-repeat: no-repeat;
+	background-repeat: none;
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+    
 }
 
 .team-member {
@@ -550,8 +556,8 @@ section#team {
 }
 
 section#team .text-muted {
-    padding-left: 70px;
-    padding-right: 70px;
+    padding-left: 10px;
+    padding-right: 10px;
     margin-bottom: 50px;
 }
 
