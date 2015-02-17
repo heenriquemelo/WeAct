@@ -285,7 +285,7 @@ fieldset[disabled] .btn-primary.active {
 header {
     text-align: center;
     color: #fff;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-image: url(../img/sky1.jpg);
     background-position: center;
     background-repeat: none;
@@ -293,6 +293,12 @@ header {
        -moz-background-size: cover;
          -o-background-size: cover;
             background-size: cover;
+}
+
+@media (min-width: 768px) {
+    header {
+        background-attachment: fixed;
+    }
 }
 
 header .intro-text {
@@ -356,6 +362,18 @@ section {
     padding: 75px 0;
 }
 
+@media (min-width: 768px) {
+    section#sobre .img-responsive {
+        max-width: 50%;
+    }    
+}
+
+@media (min-width: 992px) {
+    section#sobre .img-responsive {
+        max-width: 100%;
+    }    
+}
+
 .about-text {
     margin-top: 50px;
     padding-left: 20px;
@@ -409,15 +427,31 @@ section#services h3.section-subheading {
 }
 
 section#services {
-	background-color: rgba(35,35,35,1);
-	background-image: url(../img/map-image.png);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: none;
-    -webkit-background-size: cover;
-       -moz-background-size: cover;
-         -o-background-size: cover;
-            background-size: cover;
+	background-image: url(../img/air-pattern1.jpg);
+    background-attachment: scroll;
+    -webkit-background-size: contain;
+           -moz-background-size: contain;
+             -o-background-size: contain;
+                background-size: contain;
+}
+
+@media (min-width: 768px) {
+    section#services {
+         background-attachment: fixed;
+    }
+}
+
+@media (min-width: 992px) {
+    section#services {
+        background-color: rgba(35,35,35,1);
+        background-image: url(../img/map-image.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        -webkit-background-size: cover;
+           -moz-background-size: cover;
+             -o-background-size: cover;
+                background-size: cover;
+    }
 }
 
 section#services .text-muted {
@@ -513,14 +547,24 @@ aside.clients img {
 section#team {
 	padding-bottom: 20px;
 	background-image: url(../img/lego1.jpg);
-    background-attachment: fixed;
     background-position: center;
-	background-repeat: none;
-    -webkit-background-size: cover;
-       -moz-background-size: cover;
-         -o-background-size: cover;
-            background-size: cover;
+    background-attachment: scroll;
+    -webkit-background-size: contain;
+       -moz-background-size: contain;
+         -o-background-size: contain;
+            background-size: contain;
     
+}
+
+@media (min-width: 768px) {
+    section#team {
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+           -moz-background-size: cover;
+             -o-background-size: cover;
+                background-size: cover;
+    }
 }
 
 .team-member {

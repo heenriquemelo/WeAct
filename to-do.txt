@@ -1,23 +1,17 @@
 Antes de lançar site (production):
 
--diminuir peso das imagens;
 -rever plano de vendas (EX: qualquer preço, mas a partir de R$15,00 tem bonus?);
 -ver se o plano de vendas é possível do ponto de vista tecnico;
 -integrar google analytics;
 -ler:como otimizar SEO;
 -criar página no facebook ("Dúvidas? Fale conosco pelo facebook ou envie um email para nosso autor"?);
--ver host para website - assinatura por tempo de uso (minutos, horas)?
--try: DREAMHOST - promocode: STYLESHOUT;
 -check Chrome favorites: SEO spider, get a peek, W3C Validator, copywriting, google tag manager, free hosting, 
 free stock images;
 -check Flickr requirements for commercial use of images;
--create company email;
--delete useless files;
 
 
 Após:
 
--testar vários tamanhos de tela mobile;
 -preço - That's about 4 cups of coffee;
 -falar com Mateo;
 -achar forma de integrar os outros Scholars;
