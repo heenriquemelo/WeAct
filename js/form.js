@@ -13,9 +13,11 @@
 	      $http.post('controller.php', {'email': $scope.email, 'date': jsondate})
 	      .success(function(data,status,header,config) {
 	      	console.log(status);
+
 	      })
 	      .error(function(data,status,header,config) {
 	      	console.log(status);
+
 	      })
 		}
 		
@@ -23,12 +25,12 @@
 
 	// Controller para recuperar dados JSON com HTTP get
 
-	/* app.controller('TestCtrl', function($scope, $http) {
+	 /*app.controller('TestCtrl', function($scope, $http) {
 		
 		$scope.getEmails = function() {
-	    	$http.get('emails.json')
+	    	$http.get('controller.php')
 	    	.success(function(data,status,header,config) {
-	    		//$scope.users = data;
+	    		$scope.users = data;
 	    		console.log(data);
 	    		console.log(status);
 	    	})

@@ -1,0 +1,46 @@
+.sky1, .lego1, .map-image1, .air-pattern1, .map-image1, .open-book, .henrique1{
+	background: url(sprites.png) no-repeat;
+}
+
+.sky1{
+	background-position: 0 0;
+	width: 1280px;
+	height: 720px;
+}
+
+.lego1{
+	background-position: -1031px -448px ;
+	width: 1024px;
+	height: 768px;
+}
+
+.map-image1{
+	background-position: -992px -490px ;
+	width: 1469px;
+	height: 720px;
+}
+
+.air-pattern1{
+	background-position: -953px -462px ;
+	width: 1300px;
+	height: 1300px;
+}
+
+.map-image1{
+	background-position: -1041px -506px ;
+	width: 1469px;
+	height: 720px;
+}
+
+.open-book{
+	background-position: -927px -515px ;
+	width: 411px;
+	height: 306px;
+}
+
+.henrique1{
+	background-position: -1004px -498px ;
+	width: 640px;
+	height: 640px;
+}
+

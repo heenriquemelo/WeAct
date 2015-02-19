@@ -6,7 +6,6 @@
 
 body {
     overflow-x: hidden;
-    font-family: "Myriad Light Pro", "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .text-muted {
@@ -161,7 +160,7 @@ fieldset[disabled] .btn-primary.active {
     background-color: rgba(254,209,54,1);
 	transition: all 0.2s;
 	-webkit-transition: all 0.2s;
-	-moz-transition: all 0.2;
+	-moz-transition: all 0.2s;
 }
 
 .btn-xl:hover,
@@ -307,12 +306,13 @@ header .intro-text {
 }
 
 header .intro-text .intro-brand {
-    font-family: "fredericka-the-great","Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: "fredericka-the-great","cabin-sketch","Helvetica Neue",Helvetica,Arial,cursive;
     color: #fed136;
     font-size: 6em;
     margin-top: -15px;
     margin-bottom: 25px;
     font-weight: 400;
+    text-transform: none;
 }
 
 header .intro-text .intro-lead-in {
@@ -444,7 +444,7 @@ section#services {
 @media (min-width: 992px) {
     section#services {
         background-color: rgba(35,35,35,1);
-        background-image: url(../img/map-image.png);
+        background-image: url(../img/map-image1.png);
         background-repeat: no-repeat;
         background-position: center;
         -webkit-background-size: cover;
