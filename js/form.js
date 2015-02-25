@@ -14,6 +14,8 @@
 	      .success(function(data,status,header,config) {
 	      	console.log(status);
 
+	      	$scope.email= [];
+
 	      })
 	      .error(function(data,status,header,config) {
 	      	console.log(status);

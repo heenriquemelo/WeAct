@@ -1,0 +1,8 @@
+//Password Protect file
+<Files file.json>
+AuthName "Prompt"
+AuthType Basic
+AuthUserFile .htpasswd
+Require valid-user
+</Files>
+ 

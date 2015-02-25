@@ -1,0 +1,16 @@
+Google analytics data:
+	-most users use iPhones (43% as of Feb/21 to Feb/24);
+	-most users use net service provider either through computer or phone (60%) -> 
+	people access the site from their homes;
+	-same conversion rate from all operating systems;
+	-há usuários de outras cidades do país se cadastrando;
+	-there was a sharp increase in the conversion rate after the modification to the form (+50%);
+	-Conversoion: Feb 22 -> 10%; Feb 23 -> 20%; Feb 24 -> 5% (?)
+	-Users: 61% tem entre 18-24 e 39% tem entre 25-34;
+	-Estudantes de linguas estrangeiras têm uma taxa de conversão muito maior (36%);
+
+
+
+AHNES:
+	-heenriquemeloiki0517
+

@@ -1,24 +1,28 @@
-Antes de lançar site (production):
+Production:
 
--check Chrome favorites: get a peek;
--check Flickr requirements for commercial use of images;
--implementar applinks p/ fazer conexão web-app no mobile;
+	-send emails to universities;
+	-check Chrome favorites: get a peek;
+	-mailchimp?
+	-how to get the json data? (check -> Anderson)
+	-add seção p/ contato -> ver template;
 
-Após:
+Feedback:
 
--preço - That's about 4 cups of coffee;
--falar com Mateo;
--send emails to universities;
--mailchimp?
--how to get the json data? (check -> Anderson)
+	-colocar minhas credenciais;
+	-listar capítulos do livro;
+	-disponibilizar introdução/1o capitulo;
 
 Após resultados de Abril:
 
--lançar o livro;
--parceria com editora saraiva?
--divulgação braba;
--ads do facebook;
--parceria com interessados (ex: Estudar Fora); 
+	-lançar o livro;
+	-preço - That's about 4 cups of coffee;
+	-parceria com editora saraiva?
+	-divulgação braba;
+	-ads do facebook;
+	-parceria com interessados (ex: Estudar Fora); 
+
+
+
 
 
 
