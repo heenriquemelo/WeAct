@@ -1,0 +1,7 @@
+AuthName "Restricted Area"
+AuthType Basic
+
+#Adicione o full path do .htpasswd aqui, senão gera o erro 500 anterior
+AuthUserFile /home/anderson/apps/tests/WeAct/db/.htpasswd
+AuthGroupFile /dev/null
+require valid-user
