@@ -5,6 +5,7 @@ Production:
 	-mailchimp?
 	-how to get the json data? (check -> Anderson)
 	-add seção p/ contato -> ver template;
+	-redirect www.weact.com.br to weact.com.br (redundant host names);
 
 Feedback:
 
