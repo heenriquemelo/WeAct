@@ -1,11 +1,14 @@
+- pedir foto Anne
+- adicionar vídeo de introdução no lugar do livro (sobre) ou após clicar em botão- Youtube API;
+- enviar emails para os q se cadastraram;
+- criar outro agency.min.css
+- optimizar mobile
+
 Production:
 
-	-send emails to universities;
-	-check Chrome favorites: get a peek;
 	-mailchimp?
-	-how to get the json data? (check -> Anderson)
-	-add seção p/ contato -> ver template;
 	-redirect www.weact.com.br to weact.com.br (redundant host names);
+	-websites & facebook pages: Estudar nos EUA, Alpha Lumen.
 
 Feedback:
 
@@ -16,7 +19,7 @@ Feedback:
 Após resultados de Abril:
 
 	-lançar o livro;
-	-preço - That's about 4 cups of coffee;
+	-preço - That's about 2 cups of coffee;
 	-parceria com editora saraiva?
 	-divulgação braba;
 	-ads do facebook;

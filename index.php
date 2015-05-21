@@ -14,10 +14,10 @@
     <title>WeAct - Estude nos Estados Unidos</title>
 
     <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 
     <!-- Custom CSS -->
-    <link href="css/agency.min.css" rel="stylesheet">
+    <link href="css/agency.css" rel="stylesheet"> <!-- CHANGE TO MIN-->
 
     <!-- Custom Fonts -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
@@ -68,28 +68,6 @@
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">WeAct</a>
             </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#sobre">Sobre</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#services">Como</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Inscrição</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#team">Autor</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
         </div>
         <!-- /.container-fluid -->
     </nav>
@@ -125,7 +103,7 @@
                     <img src="img/open-book.png" alt="Livro" class="img-responsive col-xs-8 col-xs-offset-2 col-sm-8 col-sm-offset-3 col-md-4 col-md-offset-2 col-lg-offset-1"/>
                 </div>
                 <div class="about-text col-xs-12 col-md-5 col-md-offset-0 col-lg-5 col-lg-offset-1">
-                  <p class="text-muted" style="text-align: justify; color: #444">A WeAct foi fundada com o objetivo de auxiliar jovens brasileiros que desejam cursar faculdade no exterior. Estamos escrevendo o primeiro e-book em português sobre o processo de ingresso nas universidades dos Estados Unidos. Você aprenderá sobre o SAT ("ENEM americano"), a importância das redações, atividades extracurriculares, recomendações de professores, além de receber dicas de outros sites e livros úteis.</p>
+                  <p class="text-muted" style="text-align: justify; color: #444">A WeAct foi fundada com o objetivo de auxiliar jovens brasileiros que desejam cursar faculdade no exterior. Escrevemos o único e-book em português sobre o processo de ingresso nas universidades dos Estados Unidos. Você aprenderá sobre as bolsas de estudo no exterior, o SAT ("ENEM americano"), a importância das redações, as atividades extracurriculares, as recomendações de professores, além de receber dicas exclusivas e ganhar acesso a outros materiais de estudo.</p>
                 </div>
             </div>
         </div>
@@ -137,17 +115,17 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading text-white">Como Fazemos</h2>
-                    <h3 class="section-subheading" style="color:#E6E6E6">É só cadastrar e aguardar</h3> <!--CHANGER ÇA-->
+                    <h3 class="section-subheading" style="color:#E6E6E6">Simples, rápido e eficiente</h3> 
                 </div>
             </div>
             <div class="row text-center">
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-at fa-stack-1x fa-inverse"></i>
+                        <i class="fa fa-smile-o fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading text-white">Participe</h4>
-                    <p class="text-muted text-white">Cadastre seu email. Você será informado do lançamento de nosso e-book em breve.</p>
+                    <p class="text-muted text-white">Por um preço mínimo, você terá acesso às melhores técnicas e dicas disponíveis.</p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
@@ -155,7 +133,7 @@
                         <i class="fa fa-puzzle-piece fa-stack-1x fa-inverse"></i>  
                     </span>
                     <h4 class="service-heading text-white">Aprenda</h4>
-                    <p class="text-muted text-white">Por um preço mínimo, você terá acesso às melhores técnicas e dicas disponíveis.</p> <!-- CHANGER ÇA -->
+                    <p class="text-muted text-white">Através do livro, você saberá o que fazer e como se preparar para estudar nos EUA.</p> 
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
@@ -163,40 +141,70 @@
                         <i class="fa fa-plane fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading text-white">Viva</h4>
-                    <p class="text-muted text-white">Com nosso auxílio, você estará pronto para ingressar na universidade de seus sonhos.</p>
+                    <p class="text-muted text-white">Após a leitura, você estará pronto para ingressar na universidade de seus sonhos.</p>
                 </div>
             </div>
         </div>
     </section>
 
     
-    <!--Contact Section-->  
-    <section id="contact">
-        <div class="container container-sm">
+    <!--Book Section-->  
+    <section id="livro">
+        <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Inscreva-se</h2>
-                    <h3 class="section-subheading" style="font-style:italic; color:#555">É fácil e seguro - não mandamos spam</h3>
+                    <h2 class="section-heading">O Que Escrevemos</h2>
+                    <h3 class="section-subheading" style="color: #555">Conhecimento que transforma vidas</h3>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <form ng-app="form" ng-controller="FormCtrl" name="emailForm" id="emailForm" ng-submit="emailForm.$valid && emailForm.$dirty && addEmail()">
-                        <div class="row">
-                            <div class="col-md-6 col-md-offset-3">
-                                <div class="input-group">
-                                    <span class="input-group-addon"><i class="fa fa-at fa-2x"></i></span>
-                                    <input ng-model="email" type="email" class="form-control" placeholder="Email" id="email" name="email" required>
-                                    <span ng-show="emailForm.$submitted" class="form-control-feedback"><i class="fa fa-check fa-2x"></i></span>
-                                </div>
-                            </div>
-                            <div class="col-lg-12 text-center">
-                                <div id="success"></div>
-                                <button type="submit" class="btn btn-xl" id="margin-up" ng-disabled="emailForm.$invalid">Quero Participar</button>
-                            </div>
-                        </div> 
-                    </form>
+            <div class="row text-center">
+                <div>
+                    <img src="img/3D_cover.jpg" alt="Livro" class="img-responsive col-xs-8 col-xs-offset-2 col-sm-8 col-md-4 col-md-offset-2"/>
                 </div>
+                <div class="about-text col-xs-12 col-md-5 col-md-offset-0 col-lg-4 col-lg-offset-1">
+                  <p class="text-muted" style="text-align: justify; font-size: 20px; color: #444; line-height: 300%; font-weight: bold">
+                        - 11 capítulos com explicações.<br>
+                        - Dicas exclusivas sobre o processo.<br>
+                        - Seção de informações extras.<br>
+                        - 40 dúvidas comuns explicadas.<br>
+                        - Seção de recursos com links úteis.<br>
+                        - Pasta do Dropbox com mais materiais.<br>
+                  </p>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Adquira: Conhecimento inestimável pelo preço de um milkshake -->
+    <!-- <a href="#"><button class="btn btn-xl">Comprar!</button></a> -->
+
+    <!--Buy Section-->  
+    <section id="compre">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading text-white">Adquira Já</h2>
+                    <h3 class="section-subheading" style="color:#E6E6E6">Pelo preço de 2 xícaras de café</h3>
+                </div>
+            </div>
+            <div class="row text-center">
+                <a href="#"><button class="btn btn-xl">Compre o livro por R$9,00</button></a>
+            </div>
+        </div>
+    </section>
+
+    <!--Depoiments section-->
+    <section id="depoimentos">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Depoimentos</h2>
+                    <h3 class="section-subheading" style="color:#E6E6E6"></h3>
+                </div>
+            </div>
+            <div class="row text-center">
+                
             </div>
         </div>
     </section>
@@ -218,18 +226,37 @@
                     </div>
                 </div>
                 <div class="col-sm-5 col-sm-offset-1">
-                	<p class="text-muted text-white" style="text-align: justify"><i class="fa fa-quote-left" style="color:#E6E6E6"></i> Venho aprendendo sobre o processo de admissão das universidades americanas desde a 8&ordf série e atualmente espero os resultados de meus applications, que sairão entre março e abril de 2015. A ideia de fundar a <span style="font-family:fredericka-the-great; color: rgba(254, 209, 54, 1)">WeAct</span> veio após perceber que muitos outros jovens desejam estudar no exterior, mas poucos sabem como. Com o e-book, espero poder ajudar estes sonhadores a alcançarem suas metas. <i class="fa fa-quote-right" style="color:#E6E6E6"></i>
+                	<p class="text-muted text-white" style="text-align: justify"><i class="fa fa-quote-left" style="color:#E6E6E6"></i> Venho aprendendo sobre o processo de admissão das universidades americanas desde a 8&ordf série, quando decidi que queria estudar fora. A ideia de fundar a <span style="font-family:fredericka-the-great; color: rgba(254, 209, 54, 1)">WeAct</span> veio após perceber que muitos outros jovens desejam estudar no exterior, mas poucos sabem como. Com o e-book, espero poder ajudar estes sonhadores a alcançarem suas metas.
+                    <br><br>
+                    Em agosto de 2015 começo meus estudos na Wharton School of Business da University of Pennsylvania. Compartilhar o conhecimento que obtive ao longo dos anos de preparação é uma enorme satisfação<span style="font-family:Myriad Pro Light">!</span> <i class="fa fa-quote-right" style="color:#E6E6E6"></i></p>
             	</div>    
             </div>
         </div>
     </section>
 
+    <!--Depoiments section-->
+    <section id="midia">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Na mídia</h2>
+                </div>
+            </div>
+            <div class="row text-center">
+                <a href="http://www.estudarfora.org.br/se-a-minha-historia-inspirar-alguem-a-tentar-estudar-fora-ficarei-feliz/" target="_blank"><img src="img/sites/estudar-fora.png" class="sites"></a>
+                <a href="http://educacao.uol.com.br/noticias/2015/04/28/quer-estudar-em-uma-universidade-nos-eua-veja-7-dicas-de-quem-passou.htm" target="_blank"><img src="img/sites/uol.png" class="sites"></a>
+                <a href="http://www.emtempo.com.br/estudante-amazonense-e-aprovado-em-seis-universidades-dos-estados-unidos/" target="_blank"><img src="img/sites/emtempo.png" class="sites"></a>
+                <a href="http://acritica.uol.com.br/noticias/Amazonense-ganha-bolsa-maiores-universidades-norte-americanas-escolher-educacao-Columbia-Wharton-educacao_0_1336666343.html" target="_blank"><img src="img/sites/critica.png" class="sites"></a>
+                <a href="http://portalamazonia.com/noticias-detalhe/educacao/estudante-do-amazonas-e-disputado-por-seis-universidades-americanas/" target="_blank"><img src="img/sites/portal-amazonia.png" class="sites"></a>
+            </div>
+        </div>
+    </section>
 
     <footer>
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                  <p class="text-footer" style="color: #444">Copyright &copy; WeAct 2015</p>
+                  <p class="text-footer" style="color: rgba(200, 200, 200, 1)">Copyright &copy; WeAct <?php echo date('Y'); ?> </p>
                 </div>
                 <div class="col-md-4 visible-md visible-lg">
                     <ul class="list-inline social-buttons">
@@ -240,7 +267,7 @@
                     </ul>
                 </div>  
                 <div class="col-md-4 visible-md visible-lg">
-                	<p class="text-footer" style="color: #444">Feito com 100% de pixels reciclados</p>
+                	<p class="text-footer" style="color: rgba(200, 200, 200, 1)">Feito com 100% de pixels reciclados e reutilizados</p>
                 </div>
                 
             </div>
