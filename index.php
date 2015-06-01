@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="A WeAct guia estudantes brasileiros que desejam estudar fora do país. Estamos escrevendo o primeiro livro detalhado sobre o processo de admissão das universidades americanas. Entre e participe.">
+    <meta name="description" content="Escrevemos o primeiro livro detalhado sobre o processo de admissão das universidades americanas. Por apenas R$9,00.">
     <meta name="author" content="Henrique Melo">
 
     <link rel="shortcut icon" href="favicon.ico">
@@ -99,10 +99,7 @@
                 </div>
             </div>
             <div class="row text-center">
-                <div>
-                    <img src="img/open-book.png" alt="Livro" class="img-responsive col-xs-8 col-xs-offset-2 col-sm-8 col-sm-offset-3 col-md-4 col-md-offset-2 col-lg-offset-1"/>
-                </div>
-                <div class="about-text col-xs-12 col-md-5 col-md-offset-0 col-lg-5 col-lg-offset-1">
+                <div class="about-text col-xs-12 col-md-4 col-md-offset-4 col-lg-6 col-lg-offset-3">
                   <p class="text-muted" style="text-align: justify; color: #444">A WeAct foi fundada com o objetivo de auxiliar jovens brasileiros que desejam cursar faculdade no exterior. Escrevemos o único e-book em português sobre o processo de ingresso nas universidades dos Estados Unidos. Você aprenderá sobre as bolsas de estudo no exterior, o SAT ("ENEM americano"), a importância das redações, as atividades extracurriculares, as recomendações de professores, além de receber dicas exclusivas e ganhar acesso a outros materiais de estudo.</p>
                 </div>
             </div>
@@ -188,8 +185,14 @@
                     <h3 class="section-subheading" style="color:#E6E6E6">Pelo preço de 2 xícaras de café</h3>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-sm-4 col-sm-offset-4">
+                    <p class="text-muted text-white" style="text-align: center">A venda é efetuada através do sistema de pagamentos Gumroad. É seguro e prático.</p>
+                </div>
+            </div>
             <div class="row text-center">
-                <a href="#"><button class="btn btn-xl">Compre o livro por R$9,00</button></a>
+                <script type="text/javascript" src="https://gumroad.com/js/gumroad.js"></script>
+                <a href="https://gumroad.com/l/xsgY?wanted=true"><button class="btn btn-xl">Compre o livro por R$9,00</button></a> <!--CHANGE TO ACTUAL PRODUCT-->
             </div>
         </div>
     </section>
@@ -220,9 +223,8 @@
             <div class="row">
                 <div class="col-sm-3 col-sm-offset-2">
                     <div class="team-member text-white">
-                        <img src="img/henrique1.jpg" class="img-responsive img-circle" alt="Henrique Melo">
+                        <img src="img/wharton_boy.jpg" class="img-responsive img-circle" alt="Henrique Melo">
                         <h4>Henrique Melo</h4>
-                        <p class="text-muted text-white"><i class="glyphicon glyphicon-envelope hidden-sm"></i> <span style="color: rgba(254,209,54,1)"><a href="mailto:henrique@weact.com.br">henrique@weact.com.br</a></span></p>
                     </div>
                 </div>
                 <div class="col-sm-5 col-sm-offset-1">
@@ -252,6 +254,44 @@
         </div>
     </section>
 
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Fale Conosco</h2>
+                    <h3 class="section-subheading" style="color:#E6E6E6">Como podemos atendê-lo?</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <form name="sentMessage" id="contactForm" novalidate>
+                        <div class="row">
+                            <div class="col-md-6 col-md-offset-3">
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Email *" id="email" required data-validation-required-message="Favor prover email válido.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 col-md-offset-3">
+                                <div class="form-group">
+                                    <textarea class="form-control" placeholder="Mensagem *" id="message" required data-validation-required-message="Favor escrever mensagem."></textarea>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="col-lg-12 text-center">
+                                <div id="success"></div>
+                                <button type="submit" class="btn btn-xl">Enviar</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <footer>
         <div class="container">
             <div class="row">
@@ -274,10 +314,6 @@
         </div>
     </footer>
 
-    <!-- Load Angular -->
-    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.9/angular.min.js"></script>
-    <script src="js/form.js"></script>
-
     <!-- jQuery -->
     <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
 
@@ -287,6 +323,10 @@
     <!-- Plugin JavaScript -->
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     <script src="js/javascript.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
    
 
 </body>
