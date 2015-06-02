@@ -14,7 +14,10 @@
     <title>WeAct - Estude nos Estados Unidos</title>
 
     <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Lightbox CSS (to display video) -->
+    <link rel="stylesheet" href="lightbox/ekko-lightbox.css">
 
     <!-- Custom CSS -->
     <link href="css/agency.css" rel="stylesheet"> <!-- CHANGE TO MIN-->
@@ -33,7 +36,6 @@
 
 <!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.--><script>var __adobewebfontsappname__="dreamweaver"</script><script src="http://use.edgefonts.net/coming-soon:n4:default;cabin-sketch:n4:default;fredericka-the-great:n4:default.js" type="text/javascript" async></script>
 
-
 </head>
 
 <body id="page-top" class="index">
@@ -48,12 +50,15 @@
     })(window,document,'script','dataLayer','GTM-N22ZFN');</script>
     <!-- End Google Tag Manager -->
 
-    <!-- Preloader 
-
-    <div id="loader-wrapper">
-        <div id="loader"></div>
-        <div class="loader-section"></div>
-    </div>  -->
+    <!-- Facebook JS SDK -->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.3";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
 
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top hidden-xs">
@@ -102,6 +107,9 @@
                 <div class="about-text col-xs-12 col-md-4 col-md-offset-4 col-lg-6 col-lg-offset-3">
                   <p class="text-muted" style="text-align: justify; color: #444">A WeAct foi fundada com o objetivo de auxiliar jovens brasileiros que desejam cursar faculdade no exterior. Escrevemos o único e-book em português sobre o processo de ingresso nas universidades dos Estados Unidos. Você aprenderá sobre as bolsas de estudo no exterior, o SAT ("ENEM americano"), a importância das redações, as atividades extracurriculares, as recomendações de professores, além de receber dicas exclusivas e ganhar acesso a outros materiais de estudo.</p>
                 </div>
+            </div>
+            <div class="row text-center">
+                    <a href="https://www.youtube.com/watch?v=DeXoACwOT1o?html5=1" data-toggle="lightbox"><button class="btn btn-xl">Ver Vídeo</button></a> <!-- CHANGE FOR ACTUAL URL -->
             </div>
         </div>
     </section>
@@ -173,9 +181,6 @@
         </div>
     </section>
 
-    <!-- Adquira: Conhecimento inestimável pelo preço de um milkshake -->
-    <!-- <a href="#"><button class="btn btn-xl">Comprar!</button></a> -->
-
     <!--Buy Section-->  
     <section id="compre">
         <div class="container">
@@ -203,11 +208,28 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Depoimentos</h2>
-                    <h3 class="section-subheading" style="color:#E6E6E6"></h3>
+                    <h3 class="section-subheading" style="margin-bottom: 70px"></h3>
                 </div>
             </div>
             <div class="row text-center">
-                
+                <div class="col-md-4">
+                    <img src="img/wharton_boy.jpg" class="testimony" style="margin-bottom: 20px">
+                    <p class="text-muted">"Muy bueno!"</p>
+                    <br>
+                    <p class="text-muted"><b>Fulano Crica</b></p>
+                </div>
+                <div class="col-md-4">
+                    <img src="img/wharton_boy.jpg" class="testimony" style="margin-bottom: 20px">
+                    <p class="text-muted">"Nofan, realmentchy!"</p>
+                    <br>
+                    <p class="text-muted"><b>Bazará du Bará</b></p>
+                </div>
+                <div class="col-md-4">
+                    <img src="img/wharton_boy.jpg" class="testimony" style="margin-bottom: 20px">
+                    <p class="text-muted">"O livro é baum mermo!"</p>
+                    <br>
+                    <p class="text-muted"><b>Dudu Zika</b></p>
+                </div>
             </div>
         </div>
     </section>
@@ -225,18 +247,19 @@
                     <div class="team-member text-white">
                         <img src="img/wharton_boy.jpg" class="img-responsive img-circle" alt="Henrique Melo">
                         <h4>Henrique Melo</h4>
+                        <p class="text-muted text-white"><i class="fa fa-envelope hidden-sm"></i> <span style="color: rgba(254,209,54,1)"><a href="mailto:henrique@weact.com.br">henrique@weact.com.br</a></span></p>
                     </div>
                 </div>
                 <div class="col-sm-5 col-sm-offset-1">
                 	<p class="text-muted text-white" style="text-align: justify"><i class="fa fa-quote-left" style="color:#E6E6E6"></i> Venho aprendendo sobre o processo de admissão das universidades americanas desde a 8&ordf série, quando decidi que queria estudar fora. A ideia de fundar a <span style="font-family:fredericka-the-great; color: rgba(254, 209, 54, 1)">WeAct</span> veio após perceber que muitos outros jovens desejam estudar no exterior, mas poucos sabem como. Com o e-book, espero poder ajudar estes sonhadores a alcançarem suas metas.
                     <br><br>
-                    Em agosto de 2015 começo meus estudos na Wharton School of Business da University of Pennsylvania. Compartilhar o conhecimento que obtive ao longo dos anos de preparação é uma enorme satisfação<span style="font-family:Myriad Pro Light">!</span> <i class="fa fa-quote-right" style="color:#E6E6E6"></i></p>
+                    Em agosto de 2015 começo meus estudos na Wharton School of Business da University of Pennsylvania, considerada a melhor faculdade de negócios do mundo pela Forbes. <i class="fa fa-quote-right" style="color:#E6E6E6"></i></p>
             	</div>    
             </div>
         </div>
     </section>
 
-    <!--Depoiments section-->
+    <!-- Testimony section-->
     <section id="midia">
         <div class="container">
             <div class="row">
@@ -254,40 +277,17 @@
         </div>
     </section>
 
-    <section id="contact">
+    <!-- Facebook section -->
+    <section id="facebook">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Fale Conosco</h2>
-                    <h3 class="section-subheading" style="color:#E6E6E6">Como podemos atendê-lo?</h3>
+                    <h2 class="section-heading text-white">No Facebook</h2>
+                    <h3 class="section-subheading text-white">Nos ajude a divulgar este sonho</h3>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <form name="sentMessage" id="contactForm" novalidate>
-                        <div class="row">
-                            <div class="col-md-6 col-md-offset-3">
-                                <div class="form-group">
-                                    <input type="email" class="form-control" placeholder="Email *" id="email" required data-validation-required-message="Favor prover email válido.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6 col-md-offset-3">
-                                <div class="form-group">
-                                    <textarea class="form-control" placeholder="Mensagem *" id="message" required data-validation-required-message="Favor escrever mensagem."></textarea>
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="clearfix"></div>
-                            <div class="col-lg-12 text-center">
-                                <div id="success"></div>
-                                <button type="submit" class="btn btn-xl">Enviar</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
+            <div class="row text-center">
+                <div class="fb-like" data-href="https://www.facebook.com/weact.br" data-layout="box_count" data-action="recommend" data-show-faces="false" data-share="true" style="margin-bottom: 25px"></div>
             </div>
         </div>
     </section>
@@ -295,39 +295,81 @@
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
-                  <p class="text-footer" style="color: rgba(200, 200, 200, 1)">Copyright &copy; WeAct <?php echo date('Y'); ?> </p>
+                <div class="col-md-4 col-md-offset-4">
+                  <p class="text-footer" style="color: rgba(70, 70, 70, 1)">Copyright &copy; WeAct <?php echo date('Y'); ?> </p>
                 </div>
-                <div class="col-md-4 visible-md visible-lg">
-                    <ul class="list-inline social-buttons">
-                        
-                        <li><a href="//www.facebook.com/weact.br" target="_blank"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        
-                    </ul>
-                </div>  
-                <div class="col-md-4 visible-md visible-lg">
-                	<p class="text-footer" style="color: rgba(200, 200, 200, 1)">Feito com 100% de pixels reciclados e reutilizados</p>
-                </div>
-                
             </div>
         </div>
     </footer>
 
+
     <!-- jQuery -->
-    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="js/jquery.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Lightbox JS (to display video) -->
+    <script src="lightbox/ekko-lightbox.js"></script>
+
+    <script type="text/javascript">
+            $(document).ready(function ($) {
+                // delegate calls to data-toggle="lightbox"
+                $(document).delegate('*[data-toggle="lightbox"]:not([data-gallery="navigateTo"])', 'click', function(event) {
+                    event.preventDefault();
+                    return $(this).ekkoLightbox({
+                        onShown: function() {
+                            if (window.console) {
+                                return console.log('Checking our the events huh?');
+                            }
+                        },
+                        onNavigate: function(direction, itemIndex) {
+                            if (window.console) {
+                                return console.log('Navigating '+direction+'. Current item: '+itemIndex);
+                            }
+                        }
+                    });
+                });
+
+                //Programatically call
+                $('#open-image').click(function (e) {
+                    e.preventDefault();
+                    $(this).ekkoLightbox();
+                });
+                $('#open-youtube').click(function (e) {
+                    e.preventDefault();
+                    $(this).ekkoLightbox();
+                });
+
+                // navigateTo
+                $(document).delegate('*[data-gallery="navigateTo"]', 'click', function(event) {
+                    event.preventDefault();
+                    return $(this).ekkoLightbox({
+                        onShown: function() {
+
+                            var a = this.modal_content.find('.modal-footer a');
+                            if(a.length > 0) {
+
+                                a.click(function(e) {
+
+                                    e.preventDefault();
+                                    this.navigateTo(2);
+
+                                }.bind(this));
+
+                            }
+
+                        }
+                    });
+                });
+
+
+            });
+        </script>
 
     <!-- Plugin JavaScript -->
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     <script src="js/javascript.min.js"></script>
-
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
-   
 
 </body>
 

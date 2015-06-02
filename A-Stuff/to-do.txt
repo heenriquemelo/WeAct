@@ -1,20 +1,17 @@
-- adicionar vídeo de introdução no lugar do livro (sobre) ou após clicar em botão - Youtube API;
-- enviar emails para os q se cadastraram;
+
 - criar outro agency.min.css
 - optimizar mobile
 - comprar SSL certificate para habilitar compras pelo site; - SALE55
-- contactar gumroad -> "Codigo de segurança" wrongly displayed
-- explicar p cliente como gumroad funciona;
 - formulario de contato;
-- trabalhar com CDNs?
 - abrir facebook direto: fabriq;
+- livro para UNDERGRADUATION;
 
-Production:
 
-	-mailchimp?
-	-redirect www.weact.com.br to weact.com.br (redundant host names);
-	-websites & facebook pages: Estudar nos EUA, Alpha Lumen.
 
+- redirect www.weact.com.br to weact.com.br (redundant host names);
+- websites & facebook pages: Estudar nos EUA, Alpha Lumen.
+- Qm compartilhar mais, ganha de graça...
+- enviar emails para os q se cadastraram (mailchimp);
 
 
 

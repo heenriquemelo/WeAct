@@ -176,7 +176,7 @@ fieldset[disabled] .btn-primary.active {
 .navbar-default {
     border-color: transparent;
     background-color: #222;
-    z-index: 999;
+    z-index: 2;
 }
 
 .navbar-default .navbar-brand {
@@ -509,6 +509,11 @@ section#compre {
     }
 }
 
+img.testimony {
+    border-radius: 100%;
+    width: 100px;
+}
+
 aside.clients img {
     margin: 50px auto;
 }
@@ -651,9 +656,15 @@ section#contact .text-danger {
     color: #e74c3c;
 }
 
+section#facebook {
+    background-color: rgb(30, 30, 30);
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
 footer {
     padding: 25px 0;
-    background-color: rgb(30, 30, 30);
+    background-color: #FFFFFF;
     text-align: center;
 }
 
